@@ -1,0 +1,121 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    /* 
+    font: 15px/1.5 Arial, Helvetica, sans-serif
+    //same thing, shortens it up
+    */
+    padding: 0;
+    margin: 0;
+    background-color: lightgray;
+}
+
+/*classes are identified with a '.'*/
+
+/* Global */
+.container{
+    width: 80%;
+    margin: auto; /*automatically centers everything */
+    overflow: hidden; /*if something goes outside a div, hide it */
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
+
+/*Header */
+header{
+    background: orangered;
+    color: white;
+    /*does not change the link color*/
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: white 3px solid;
+}
+
+/*link css */
+header a{
+    color: white;
+    text-decoration: none; /* prevents underline of links */
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/*unordered list
+by default, ul have padding and margin.
+*/
+
+header li{
+    float: left;
+    display: inline;
+    /*padding is top right bottom left.*/
+    padding: 0 20px 0 20px;
+}
+
+/*move my name and the nav 
+to their own sides of the ting*/
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight, header .current a{
+    color: darkslategray;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ccccc;
+    font-weight: bold;
+}
+
+#showcase{
+    min-height: 400px;
+    background: url('../img/diogenes.jpg') no-repeat center;   
+    background-size: 75%;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width:200px;
+}
+
+.rotate90{
+    transform: rotate(90deg);
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: orangered;
+    text-align: center;
+}

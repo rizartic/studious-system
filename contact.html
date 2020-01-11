@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta char-set="utf-8">
+
+        <!--set the width of the website, will reshape
+        dynamically based on size of browser-->
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="A resume page for Riz Walter Articulo. Hello!">
+        <!-- below is for seo-->
+        <meta name="keywords" content="Riz, Riz Walter, Articulo, Riz Walter Articulo, UNLV, student, resume">
+        <meta name="author" content="Riz Walter Articulo">
+        <title>Riz Walter Articulo | Welcome </title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+
+        <header>
+            <!-- difference between class and id
+            id is for something unique, used once on a page, like a showcase (large, background pic)
+            class is something reusuable, like a container-->
+
+            <div class="container">
+                <div id="branding">
+                    <h1>Riz Walter Articulo</h1>
+                </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Project List</a></li>
+                    <li class="current"><a href="contact.html">Contact</a></li> </ul>
+            </nav>
+            </div>
+        </header>
+
+        <section id="showcase">
+            <div class="container">
+                <h1>Some tidbits about me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur lectus in diam ornare ultrices. Donec imperdiet in diam sit amet tempor. Suspendisse quis urna at tellus faucibus efficitur eu vitae nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis quis sapien metus. Phasellus a odio dapibus, consectetur turpis eget, luctus nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                </p>
+            </div>
+        </section>
+
+        <!--  Commenting out, no use for this section in our resume page
+        <section id="newsletter"> 
+            <div class="container">
+                <h1> Subscribe to Our Newsletter</h1>
+                <form> // if this were a real form, would have something like <form action="./email.php"
+                    <input type="email" placeholder="Enter Email...">                    
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        -->
+        <section id="boxes">
+            <div class="container">
+                <div class="box">
+                    <img src="./img/formal_flex.JPG">
+                    <h3>Formal Flex</h3>
+                </div>
+                <div class="box">
+                    <img src="./img/ribbiroo.JPG" class="rotate90">
+                    <h3>Ribbigirum</h3>
+                </div><div class="box">
+                    <img src="./img/unbound_flex.JPG">
+                    <h3>Unbound Flex</h3>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Riz Walter Articulo, Copyright &copy; 2017</p>
+        </footer>
+    </body>
+</html>
