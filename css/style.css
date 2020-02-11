@@ -76,13 +76,14 @@ header .highlight, header .current a{
 }
 
 header a:hover{
-    color: #ccccc;
+    color: #cccccc;
     font-weight: bold;
 }
 
 #showcase{
     min-height: 400px;
-    background: url('../img/diogenes.jpg') no-repeat center;   
+    /* background: url('../img/diogenes.jpg') no-repeat center;    */
+    background-color: "purple-gradient";
     background-size: 75%;
     text-align: center;
     color: white;
